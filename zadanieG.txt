@@ -1,0 +1,15 @@
+a) Jaka jest norma błędu rezydualnego dla każdego sposobu rozwiązania równania macierzowego?
+norma metoda Gaussa: 6.9177e-13
+norma metoda Jacobiego: 1.268575574190041e+308
+minimum lokalne: 254.2894, dla liczby stron wynoszącej: 2
+norma metoda Gaussa-Seidla: 64367347963.3897
+minimum lokalne: 4.5044, dla liczby stron wynoszącej: 40
+
+Wartość normy błędu rezydualnego przy obliczeniach metodą Jacobiego 
+po pierwszej iteracji spadła osiągając minimum lokalne.
+Natomiast przy obliczeniach metodą Gaussa-Seidla początkowo znacząco zmniejszała się
+lecz od ok 130 iteracji zaczęła wzrastać.
+
+b) Czy metody iteracyjne zbiegają się?
+Dla problemu analizy elektromagnetycznej filtru mikrofalowego metody iteracyjne 
+Jacobiego oraz Gaussa-Seidla nie zbiegają się.

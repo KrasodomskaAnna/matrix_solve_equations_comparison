@@ -1,0 +1,10 @@
+a) Która z trzech zbadanych metod okazała się najszybsza?
+Najszybsza okazała się metoda Gaussa-Seidla, dla której czas nie przekroczył dla najwyższej wartości N (12000) 0.1s. 
+Niewiele gorsza okazała się metoda Jacobiego, dla której czas również nie przekroczył 0.12s.
+Dla metody najgorszej - metody bezpośredniego rozwiązania równania macierzowego czas wyniósł prawie 5s, 
+czyli około 40 razy więcej niż poprzednie metody.
+
+b) Która metoda iteracyjna potrzebuje mniejszej liczby iteracji, żeby zbiec się do prawidłowego wyniku?
+Mniejszej liczby iteracji w celu zbiegnięcia się do prawidłowego wyniku potrzebuje metoda metoda Gaussa-Seidla, 
+dla której liczba iteracji dla najwyższej wartości N wynosiła 112. Liczba iteracji dla metody Jacobiego 
+wynosiła dla tych samych danych około 2 razy więcej, a dla najwyższej wartości N 216.
