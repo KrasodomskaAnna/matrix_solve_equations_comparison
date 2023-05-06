@@ -11,7 +11,8 @@ wynosiła dla tych samych danych około 2 razy więcej, a dla najwyższej warto�
 <br>
 <br>
 <b>a) Jaka jest norma błędu rezydualnego dla każdego sposobu rozwiązania równania macierzowego?</b><br>
-```norma metoda Gaussa: 6.9177e-13
+```
+norma metoda Gaussa: 6.9177e-13
 norma metoda Jacobiego: 1.268575574190041e+308
 minimum lokalne: 254.2894, dla liczby stron wynoszącej: 2
 norma metoda Gaussa-Seidla: 64367347963.3897
